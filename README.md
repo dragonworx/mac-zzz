@@ -1,4 +1,4 @@
-# Sleeper
+# mac-zzz
 
 A simple CLI tool to schedule your Mac to sleep after a specified duration.
 
@@ -7,40 +7,40 @@ A simple CLI tool to schedule your Mac to sleep after a specified duration.
 ## Installation
 
 ```bash
-npm install -g sleeper
+npm install -g mac-zzz
 ```
 
 ## Usage
 
 ```bash
-sleep <duration>
+zzz <duration>
 ```
 
 ### Duration Format
 
 - **Whole numbers** are treated as **minutes**
-  - Example: `sleep 30` → Sleep in 30 minutes
+  - Example: `zzz 30` → Sleep in 30 minutes
 
 - **Decimal numbers** are treated as **hours**
-  - Example: `sleep 1.5` → Sleep in 1.5 hours
+  - Example: `zzz 1.5` → Sleep in 1.5 hours
 
 ### Examples
 
 ```bash
 # Sleep in 30 minutes
-sleep 30
+zzz 30
 
 # Sleep in 1.5 hours
-sleep 1.5
+zzz 1.5
 
 # Sleep in 45 minutes
-sleep 45
+zzz 45
 
 # Sleep in 2 hours
-sleep 2.0
+zzz 2.0
 
 # Sleep now
-sleep 0
+zzz 0
 ```
 
 ## Features

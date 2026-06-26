@@ -1,6 +1,6 @@
 # Publishing Guide
 
-This document explains how to publish new versions of the `sleeper` package to npm using GitHub Actions.
+This document explains how to publish new versions of the `mac-zzz` package to npm using GitHub Actions.
 
 ## One-Time Setup
 
@@ -32,11 +32,11 @@ Before first publish, ensure these fields are filled in `package.json`:
 Example:
 ```json
 {
-  "name": "sleeper",
+  "name": "mac-zzz",
   "author": "Your Name",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/sleeper"
+    "url": "https://github.com/yourusername/mac-zzz"
   }
 }
 ```
@@ -101,7 +101,7 @@ The GitHub Actions workflow (`.github/workflows/npm-publish.yml`):
 ## Package Contents
 
 Files included in npm package (controlled by `.npmignore`):
-- `sleep.js` (main executable)
+- `zzz.js` (main executable)
 - `package.json`
 - `LICENSE`
 
@@ -149,7 +149,7 @@ npm version
 npm publish --dry-run
 
 # View published versions
-npm view sleeper versions
+npm view mac-zzz versions
 
 # Check what files will be included
 npm pack --dry-run

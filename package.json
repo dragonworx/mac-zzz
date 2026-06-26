@@ -1,14 +1,14 @@
 {
-  "name": "mac-to-sleep",
+  "name": "mac-zzz",
   "version": "1.0.0",
   "description": "A simple CLI tool to schedule Mac sleep after a specified duration",
-  "main": "sleep.js",
+  "main": "zzz.js",
   "bin": {
-    "sleep": "./sleep.js"
+    "zzz": "./zzz.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "echo 'Publishing sleeper CLI...'",
+    "prepublishOnly": "echo 'Publishing mac-zzz CLI...'",
     "version": "git add -A",
     "postversion": "git push && git push --tags"
   },
@@ -21,7 +21,7 @@
     "shutdown",
     "power"
   ],
-  "author": "",
+  "author": "Ali Chamas <dragonworxau@yahoo.com.au>",
   "license": "MIT",
   "engines": {
     "node": ">=12.0.0"
@@ -31,6 +31,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dragonworx/sleeper"
+    "url": "https://github.com/dragonworx/mac-zzz"
   }
 }
