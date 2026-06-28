@@ -4,6 +4,8 @@ A simple CLI tool to schedule your Mac to sleep after a specified duration.
 
 > **⚠️ macOS Only** - This tool only works on macOS as it uses the `pmset sleepnow` command.
 
+![screenshot](screenshot.png)
+
 ## Installation
 
 ```bash
